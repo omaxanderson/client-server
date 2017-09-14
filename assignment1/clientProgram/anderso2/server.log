@@ -1,0 +1,100 @@
+Sep 05, 2017 6:42:39 PM Server <init>
+INFO: Server port: 3333
+Sep 05, 2017 6:42:42 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:42:52 PM Server receiveValues
+SEVERE: ERROR - IOException when receiving values
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at Server.receiveValues(Server.java:127)
+	at Server.Main(Server.java:68)
+	at Server.main(Server.java:36)
+
+Sep 05, 2017 6:42:52 PM Server sendSum
+SEVERE: Bad connection, cleaning up and preparing for new connection
+Sep 05, 2017 6:42:52 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:02 PM Server receiveValues
+SEVERE: ERROR - IOException when receiving values
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at Server.receiveValues(Server.java:127)
+	at Server.Main(Server.java:68)
+	at Server.main(Server.java:36)
+
+Sep 05, 2017 6:43:02 PM Server sendSum
+SEVERE: Bad connection, cleaning up and preparing for new connection
+Sep 05, 2017 6:43:02 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:12 PM Server receiveValues
+SEVERE: ERROR - IOException when receiving values
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at Server.receiveValues(Server.java:127)
+	at Server.Main(Server.java:68)
+	at Server.main(Server.java:36)
+
+Sep 05, 2017 6:43:12 PM Server sendSum
+SEVERE: Bad connection, cleaning up and preparing for new connection
+Sep 05, 2017 6:43:12 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:12 PM Server receiveValues
+SEVERE: ERROR - EOF Exception when receiving values
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at Server.receiveValues(Server.java:127)
+	at Server.Main(Server.java:68)
+	at Server.main(Server.java:36)
+
+Sep 05, 2017 6:43:12 PM Server sendSum
+SEVERE: Bad connection, cleaning up and preparing for new connection
+Sep 05, 2017 6:43:12 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:12 PM Server receiveValues
+SEVERE: ERROR - IOException when receiving values
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at Server.receiveValues(Server.java:127)
+	at Server.Main(Server.java:68)
+	at Server.main(Server.java:36)
+
+Sep 05, 2017 6:43:12 PM Server sendSum
+SEVERE: Bad connection, cleaning up and preparing for new connection
+Sep 05, 2017 6:43:35 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:35 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:35 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:35 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:35 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:43 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:43 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:43 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:43 PM Server connect
+INFO: Connected to client
+Sep 05, 2017 6:43:43 PM Server connect
+INFO: Connected to client

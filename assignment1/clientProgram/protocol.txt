@@ -1,0 +1,35 @@
+Client1 protocol
+
+Client connects
+
+Client						Server
+Connect
+
+						GREETING
+
+VALUELIST
+
+						RESPONSESEQ
+
+
+GREETING = utf-8 -> String that must include uniqueid
+
+VALUELIST = VALUE {2,5} ENDVALUE
+
+VALUE = (INTTYPE int) DOUBLETYPE double
+
+INTTYPE = int '1'
+DOUBLETYPE = int '2'
+int => java integer
+double => java double
+
+ENDBALUE = int '0'
+
+RESPONSESEQ = RESPONSESTRING SUM
+
+RESPONSESTRING = utf-8 'OK' or 'ERROR ' + error message 
+SUM = double 
+
+SUM is the sum of the preceeding values transmited in the VALUELIST
+
+If an overflow occurs then return an ERROR OVERFLOW.
